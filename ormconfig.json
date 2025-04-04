@@ -1,0 +1,15 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "21082004",
+    "database": "order_management",
+    "entities": ["src/**/*.entity.ts"],
+    "migrations": ["src/migrations/**/*.ts"],
+    "cli": {
+      "migrationsDir": "src/migrations"
+    },
+    "synchronize": false
+  }
+  
